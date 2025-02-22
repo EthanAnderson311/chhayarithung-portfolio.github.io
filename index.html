@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="images/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/022f965a8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo4.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+        <p>Web Developer/ Graphic Designer</p>
+        <h1>Hi, I'm<span> Chhayarith</span><br>Ung From Cambodia</h1>
+        </div>
+    </div>
+</div>
+<!-----------------------about------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p class="p1">Hi! I’m Chhayarith. I am currently a student, and I want to get into the field of
+                web developing especially back-end where the magic happens but I also love the front-end where designs catches your eyes.
+                I’ve been working on my portfolio since middle school, but now it’s time to show the world what I’ve got.
+                And that’s why I’ve created this website—so you can see my work so far and get a sense of who I am as a web developer.
+                If you’d like to learn more about me, you can direct message me on
+                instagram or you can also message via telegram below.
+                <P class="p2"> https://www.instagram.com/chhayarithung855/#</P>
+                <p class="p3">https://t.me/ethananderson67</p>
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br><p style="font-size: 20px;">Designing Web/App interfaces</p></li>
+                        <li><span>Graphic Designing</span><br><p style="font-size: 20px;">Design posters and presentations</p></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br><p style="font-size: 20px;">Web Development and Graphic Design Training at SECTECH
+                        Institute</p></li>
+                        <li><span>2020-2021</span><br><p style="font-size: 20px;">Participate International Youth Fellowship</p></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br><p style="font-size: 20px;">SECTECH Institute</p></li>
+                        <li><span>2019</span><br><p style="font-size: 20px;">Graduated from TrueVISION International School</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------services------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design/ Development</h2>
+                <p>You start with the look and feel the design where you carefully choose colors,
+                fonts, and layouts to make it inviting and easy to navigate. Then comes the development,
+                the building part, where you use code to bring that design to life,
+                making sure all the rooms (pages) connect and everything works smoothly.</p>
+                <a href="https://proseeder.com/what-is-web-designing-and-development/#:~:text=Web%20designing%20focuses%20on%20the%20visual%20and%20user,
+                importance%2C%20and%20how%20they%20differ%20from%20each%20other.">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic design, at its heart, is about visual storytelling.
+                It's the art of taking ideas and translating them into
+                something people can see and understand, something that resonates. Designers blend creativity with strategy,
+                using color, typography, and imagery to craft experiences that are both beautiful and functional.</p>
+                <a href="https://www.geeksforgeeks.org/what-is-graphic-design/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design is more than just pretty pictures; it's about crafting experiences.
+                It's like building a little world where someone can easily get things done, find information, or just have a bit of fun.
+                We think about how people naturally move their fingers, what makes them smile, and what might frustrate them.</p>
+                <a href="https://wolfmatrix.com/designing-an-app/#:~:text=In%20this%20guide%2C%20we%E2%80%99ll%20discuss%20each%20step%20of,%28UX%29%20and%20how%20they%20influence%20your%20app%E2%80%99s%20performance.">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work4.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>Landing pages are ideal for digital ad campaigns,</p>
+                    <p>but they can also be useful tools you connect
+                    <p>a QR code on print marketing materials</p>
+                    <p>to a specific page.</p>
+                    <a href="https://www.nutshell.com/marketing/resources/what-is-a-landing-page"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work5.png">
+                <div class="layer">
+                    <h3>Graphic Designing</h3>
+                    <p>Good graphic art streamlines communication.
+                    <p>Picture a spreadsheet
+                    with data analytics.</p>
+                    <a href="https://www.fiverr.com/resources/guides/graphic-design/what-is-graphic-design?msockid=3b39ad5428796eeb00deb81a29ee6f66"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work6.png" style="height: 100%;">
+                <div class="layer">
+                    <h3>App Designing</h3
+                    <p>A well-designed app ensures that it</p>
+                    <p>is user-friendly and engaging,</p>
+                    <p>users can easily use it and enjoy</p>
+                    <p>its features without confusion or frustration.</p>
+                    <a href="https://www.uxdesigninstitute.com/blog/ultimate-guide-to-mobile-app-design/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>email : chhayarithung855@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+(855) 60779960</p>
+                <div class="scocial-icons">
+                    <a href="https://www.linkedin.com/in/ethananderson67/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://t.me/ethananderson67"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://x.com/Chhayarith16346"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/chhayarithung855/#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="CV.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Rith. Made by Chhayarith Ung</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx9nRipnDuJ-e9-w9xLQ-U16tRs3y_p92UBfANzKBWNCnbnzSZLggW-ZbxMtoVkk0WT/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
